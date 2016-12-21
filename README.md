@@ -5,20 +5,20 @@ Il s’agit de faire un plus petit programme que celui demandé initialement. Et
 Vous devrez programmer un jeu de course vu de dessus. Dans ce jeu, une voiture se déplace en contresens sur une route à trois voies. Le véhicule peut changer de voie afin d’éviter les autres voitures (qui elles restent sur leur voie). Le jeu s’arrête dès la première collision.
 
 ## FONCTIONNALITES DEMANDEES
-La voiture du joueur ne se déplace que latéralement. Elle ne peut ni avancer, ni reculer, ni accélérer, ni ralentir.
+* La voiture du joueur ne se déplace que latéralement. Elle ne peut ni avancer, ni reculer, ni accélérer, ni ralentir.
 
-La route défile toujours à la même vitesse.
+* La route défile toujours à la même vitesse.
 
-Les véhicules adverses sont positionnés aléatoirement sur le trajet. Ils avancent tous à la même vitesse. Ils sont tous identiques.
+* Les véhicules adverses sont positionnés aléatoirement sur le trajet. Ils avancent tous à la même vitesse. Ils sont tous identiques.
 
-Le jeu s’arrête dès que la voiture du joueur entre en contact avec un autre véhicule.
+* Le jeu s’arrête dès que la voiture du joueur entre en contact avec un autre véhicule.
 
-Un soin particulier sera apporté à la modularisation et la factorisation de votre code.
-* une bibliothèque .h/.c pour lire et afficher les PBM
-* une bibliothèque .h/.c pour gérer la route
-* une bibliothèque .h/.c pour gérer la voiture du joueur
-* une bibliothèque .h/.c pour gérer le jeu
-* *cette liste n'est pas exhaustive*
+* Un soin particulier sera apporté à la modularisation et la factorisation de votre code.
+    * une bibliothèque .h/.c pour lire et afficher les PBM
+    * une bibliothèque .h/.c pour gérer la route
+    * une bibliothèque .h/.c pour gérer la voiture du joueur
+    * une bibliothèque .h/.c pour gérer le jeu
+    * *cette liste n'est pas exhaustive*
 
 ## CONTRAINTES
 Tous les affichages doivent se faire en lisant les images PBM fournies :
